@@ -1,0 +1,51 @@
+body{
+     background-image: url("pexels-stijn-dijkstra-2499790.jpg");  
+    
+ 
+    
+}
+
+#board {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+       
+  }
+  
+  .cell {
+    border: 1px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 150px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #78efe5;
+    transition: background-color 0.3s ease;
+  }
+
+    .cell:hover {
+        background-color: #ffffff;
+    }
+  
+  button {
+    font-size: 40px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+    color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
